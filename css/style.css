@@ -1432,6 +1432,13 @@ background-size: 100%; */
     padding-top: 150px; /* Sesuaikan dengan tinggi navbar */
   }
 
+@media (max-width: 575px) {
+    .logo img {
+      display: none;
+    }
+  }
+
+
   
 
 .contact-img {
