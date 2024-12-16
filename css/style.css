@@ -1423,12 +1423,12 @@ background-size: 100%; */
     left: 0;
     width: 100%; /* Memastikan navbar memenuhi lebar layar */
     z-index: 1000;
-    background: #c6ffcf;
+    background: #c6ffcf !important;
   }
   
   /* Agar elemen di bawah navbar tidak tertutup */
   .header-top {
-    background: #c6ffcf;
+     background: #c6ffcf !important;
     padding-top: 150px; /* Sesuaikan dengan tinggi navbar */
   }
 
