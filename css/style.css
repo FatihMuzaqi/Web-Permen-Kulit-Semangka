@@ -1423,16 +1423,25 @@ background-size: 100%; */
     left: 0;
     width: 100%; /* Memastikan navbar memenuhi lebar layar */
     z-index: 1000;
-    background: #c6ffcf;
+    background: #c6ffcf !important;
   }
   
   /* Agar elemen di bawah navbar tidak tertutup */
   .header-top {
-    background: #c6ffcf;
+    background: #c6ffcf !important;
     padding-top: 150px; /* Sesuaikan dengan tinggi navbar */
   }
 
-  
+  .center-desk {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 575px) {
+    .logo img {
+      display: none;
+    }
+  }
 
 .contact-img {
     padding: 10px;
@@ -1446,16 +1455,16 @@ background-size: 100%; */
      text-align: center;
 }
  .contact .titlepage h3 {
-     padding: 0px 0px 6px 0px;
-     text-transform: uppercase;
-     font-weight: bold;
-     color: #fff;
-     line-height: 46px;
-     border-bottom: #fff solid 1px;
-     font-size: 40px;
-     width: 367px;
-     margin: 0 auto;
-     margin-bottom: 60px;
+        padding: 0px 0px 6px 0px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        line-height: 46px;
+        border-bottom: #fff solid 1px;
+        font-size: 40px;
+        width: 367px;
+        margin: 0 auto;
+        margin-bottom: 60px;
 }
  .contact .contact_bg {
     max-width: 541px;
