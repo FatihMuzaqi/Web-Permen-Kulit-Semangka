@@ -511,7 +511,7 @@
                     console.log("Showing thank you notification.");
                     const options = {
                         body: "Thank you for allowing notifications!",
-                        icon: "/img/icon-pwa192x192.png",
+                        icon: "/icons/icon-192x192.webp",
                         vibrate: [200, 100, 200]
                     };
                     new Notification("New Message!", options);
@@ -562,8 +562,8 @@
                 const { title, body, icon } = payload.notification;
                 const options = {
                     body: body,
-                    icon: icon || "/img/icon-pwa192x192.png",
-                    badge: "/img/icon-pwa192x192.png",
+                    icon: icon || "/icons/icon-192x192.webp",
+                    badge: "/icons/icon-192x192.webp",
                     vibrate: [200, 100, 200]
                 };
                 new Notification(title, options);
@@ -582,7 +582,7 @@ function initMap() {
     },
   });
 
-  var image = 'images/maps-and-flags.png';
+  var image = '/images/kulit_semangka1.webp';
   var beachMarker = new google.maps.Marker({
     position: {
       lat: 40.645037,
